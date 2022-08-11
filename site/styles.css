@@ -1,0 +1,24 @@
+html {
+  font-family: monospace;
+  margin: 5% 35%;
+}
+
+h1 {
+    color: blue;
+}
+
+.ascii-art {
+  text-align: right;
+  font-size: 0.25vw;
+  color: blue;
+}
+
+@media only screen and (max-width: 700px) {
+  html {
+    margin: 5%;
+  }
+
+  .ascii-art {
+    font-size: 0.5vw;
+  }
+}
